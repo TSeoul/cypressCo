@@ -5,3 +5,7 @@ tout ignorer
 !.gitignore
 !README.md
 !/DOC
+!/cypress
+!/data-env
+
+

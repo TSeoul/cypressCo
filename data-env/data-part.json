@@ -1,0 +1,20 @@
+{
+    "type": "1",
+    "username": "projet_tutore@formation.com",
+    "prenom": "Tam",
+    "nom": "Tam",
+    "password": "Formation2023",
+    "confirmPassword": "Formation2023",
+    "adresse": "1",
+    "ville": "Calais",
+    "pays": "France",
+    "codePostal": "69001",
+    "passport": "12123434",
+    "cin": "123456789",
+    "dateNaissance": "10082002",
+    "carteIdentite": "1212343455",
+    "tel": "0605055302",
+    "nomConjoint": "Ju",
+    "prenomConjoint": "Lien",
+    "dateNaissanceConjoint": "10082010"
+}
