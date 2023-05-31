@@ -21,5 +21,5 @@ L'outil utilisé pour tester les fonctionnalités de connexion utilisateur : Cyp
   
 - [EXECUTION.md](doc/EXECUTION.md)
   - Rapport d'exécution des tests manuels et automatisés avec les informations importantes du contexte d'exécution
-  - Anomalies rencontrées avec toutes les informations importantes du contexte d'exécution
+  - Anomalies rencontrées avec les informations importantes du contexte d'exécution
 
