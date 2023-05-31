@@ -5,6 +5,6 @@ tout ignorer
 !.gitignore
 !README.md
 !/DOC
-!/cypress/e2e
+!/cypress
 !logo.png
 
