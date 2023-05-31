@@ -31,7 +31,7 @@ describe('connexion utilisateur', () => {
         cy.get('input[formcontrolname="password"]').type('Tam');
         cy.get('button[class="btn btn-primary"]').click();
 
-        //verif
+        //verification login
         cy.url().should('include', 'https://opencruise-ok.sogeti-center.cloud');
   
     
