@@ -16,8 +16,8 @@ Cet environnement comporte plusieurs bugs connus
 
 ## Résultats des tests automatisés:
 Environnement Préproduction:
-Test JIRA-001 (connexion avec les données valides) s'exécute avec succès et sans anomalies détectées
-Test JIRA-002 (connexion avec les données valides) s'exécute avec succès et sans anomalies détectées
+- Test JIRA-001 (connexion avec les données valides) s'exécute avec succès et sans anomalies détectées
+- Test JIRA-002 (connexion avec les données valides) s'exécute avec succès et sans anomalies détectées
 
 ## Environnement Test:
 Test JIRA-001 (connexion avec les données valides) ...
