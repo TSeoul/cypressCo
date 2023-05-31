@@ -11,15 +11,14 @@ L'outil utilisé pour tester les fonctionnalités de connexion utilisateur : Cyp
 
 ## Contenu
 
-Les tests automatisés sont repartis dans un répertoire tests  
 
 - [CONCEPTION.md](doc/CONCEPTION.md)
-  - Tests détailler 
+  - Tests détaillés
+  
 - [AUTOMATISATION.md](doc/AUTOMATISATION.md)
-  - Tests automatisés
-  - Détailler ce qui est nécessaire pour comprendre et utiliser vos tests automatisés
+  - Decription courte des tests automatisés et de la technologie utilisée
+  
 - [EXECUTION.md](doc/EXECUTION.md)
-  - Exécution des tests manuels et automatisés 
-  - Rapport d'exécution pour le client avec toutes les informations importantes du contexte d'exécution
+  - Rapport d'exécution des tests manuels et automatisés avec les informations importantes du contexte d'exécution
   - Anomalies rencontrées avec toutes les informations importantes du contexte d'exécution
 
