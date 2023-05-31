@@ -1,6 +1,6 @@
 <img src="/Users/tam/Downloads/logo_opencruise.png">
 
-## PROJET CYPRESS SUR OPENCRUISE
+## PROJET OPENCRUISE AVEC CYPRESS 
 # Projet tutoré : Les tests WEB avec Cypress
 **Ce projet est un exemple de tests web automatisés et testés sur deux environnements suivants:**
 
