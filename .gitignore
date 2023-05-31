@@ -5,7 +5,6 @@ tout ignorer
 !.gitignore
 !README.md
 !/DOC
-!/cypress/e2eEnvTest
-!/cypress/e2eEnvPreProd
+!/cypress/e2e
 !logo.png
 
