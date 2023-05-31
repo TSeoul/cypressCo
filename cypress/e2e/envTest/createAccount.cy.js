@@ -1,23 +1,23 @@
-/*describe('create personal account', () => {
+describe('create personal account', () => {
     beforeEach(() => {
   
-      cy.visit('https://opencruise-ok.sogeti-center.cloud/register')
+      cy.visit('https://opencruise-ko.sogeti-center.cloud/register')
     })
   
 
     it('valid input data', () => {
         cy.get('input[type="radio"][value="1"]').check();
       
-        cy.get('input[formcontrolname="prenom"]').first().type('Blanc');
+        cy.get('input[formcontrolname="prenom"]').first().type('Brun');
         cy.get('input[formcontrolname="nom"]').first().type('Tim');
         cy.get('input[formcontrolname="dateNaissance"]').first().type('2002-01-01');
         //cy.contains('input[formcontrolname="adresse"]').should('be.visible').first().type('2');
         cy.get('input[formcontrolname="adresse"]').first().type('2');
-        cy.get('select[formcontrolname="currentPays"][option="value"]').first().select('1');
-        cy.get('select[formcontrolname="ville"][option="value"]').first().select('1');
-        cy.get('input[formcontrolname="Code postal"]').first().type('69009');
+        cy.get('select[formcontrolname="currentPays"]').first().select('France');
+        cy.get('select[formcontrolname="ville"]').first().select('Nice');
+        cy.get('input[formcontrolname="codePostal"]').first().type('69009');
         cy.get('input[formcontrolname="passport"]').first().type('7447584009');
-        cy.get('input[formcontrolname="Email"]').first().type('t@yahoo.com');
+        cy.get('input[formcontrolname="username"]').first().type('t@yahoo.com');
         cy.get('input[formcontrolname="tel"]').first().type('0683747204');
         cy.get('input[formcontrolname="cin"]').first().type('4783747204');
         cy.get('input[formcontrolname="password"]').first().type('Tamtam2023');
@@ -29,13 +29,13 @@
 
 
 
-        cy.get('button[class="btn btn-primary"]').click();
+        cy.get('button[class="btn btn-primary"]').first().click();
 
         //verification login
-        cy.url().should('include', 'https://opencruise-ok.sogeti-center.cloud');
+        cy.url().should('include', 'https://opencruise-ko.sogeti-center.cloud');
   
     
     })
   
    
-    })*/
+    })
