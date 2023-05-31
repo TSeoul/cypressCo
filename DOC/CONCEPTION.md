@@ -1,6 +1,6 @@
 ## CONNEXION / CREATION COMPTE 
 
-</style>
+
 <table class="tg">
 <thead>
   <tr>
