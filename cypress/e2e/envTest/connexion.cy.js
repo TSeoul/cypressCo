@@ -3,7 +3,7 @@
   describe('connexion utilisateur', () => {
     beforeEach(() => {
   
-      cy.visit('https://opencruise-ok.sogeti-center.cloud/login')
+      cy.visit('https://opencruise-ko.sogeti-center.cloud/login')
     })
   
     it('connexion valide', () => {
@@ -13,7 +13,7 @@
         cy.get('button[class="btn btn-primary"]').click();
 
         //verification login
-        cy.url().should('include', 'https://opencruise-ok.sogeti-center.cloud');
+        cy.url().should('include', 'https://opencruise-ko.sogeti-center.cloud');
   
     
     })
