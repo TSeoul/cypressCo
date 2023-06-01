@@ -26,5 +26,6 @@ Dans le dossier [cypress](cypress) vous trouverez:
 - Les keywords utilisés sont sauvegardés dans le dossier [step-defs](cypress/e2e/step-defs/) et utilisent les variables qui se truevnt dans le dossier [page-objects](cypress/e2e/page-objects/)
 
   
-
+Pour exécuter les tests en ligne de commande j'ai utilisé la commande "npx cypress run".
+Pour les tests individuels j'ai utilisé la commande "npx cypress run --spec "Le nom du fichier"
 
