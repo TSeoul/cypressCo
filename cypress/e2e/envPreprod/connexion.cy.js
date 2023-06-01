@@ -1,5 +1,6 @@
 import '../page-objects/PageConnexion.js';
-import {loginValide, loginInvalide, loginAdmin, loginAdminOk} from '../step-defs/stepsConnexion.js';
+import '../page-objects/PageConnexionAdmin.js';
+import {loginValide, loginInvalide, loginAdminOk} from '../step-defs/stepsConnexion.js';
 
 
 //JIRA-001

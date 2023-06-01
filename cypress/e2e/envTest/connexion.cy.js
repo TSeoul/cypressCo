@@ -1,4 +1,5 @@
 import '../page-objects/PageConnexion.js';
+import '../page-objects/PageConnexionAdmin.js';
 import {loginValideKo, loginInvalide, loginAdminKO} from '../step-defs/stepsConnexion.js';
 
 
