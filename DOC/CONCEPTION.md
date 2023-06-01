@@ -58,6 +58,15 @@
     <td class="tg-0pky">iinvalid credentials BUSINESS account</td>
     <td class="tg-0pky">The error message is displayed and the business account was not created</td>
   </tr>
+  </tr>
+     <td class="tg-0pky">JIRA-006</td>
+    <td class="tg-0pky">Connect accountAdminOK</td>
+    <td class="tg-0pky">Connect with invalid credentials AdminOK</td>
+    <td class="tg-0pky">Test case Positive</td>
+    <td class="tg-0pky">login</td>
+    <td class="tg-0pky">valid credentials AdminOK account</td>
+    <td class="tg-0pky">The user was logged in successfully</td>
+  </tr>
 </tbody>
 </table>
 
