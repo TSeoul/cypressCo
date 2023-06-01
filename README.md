@@ -7,7 +7,7 @@
 2. https://opencruise-ko.sogeti-center.cloud (nouvelle version V1.2.0 de l'application à qualifier)
 
 ## Contenu
-
+Dans le dossier DOC vous trouverez:
 
 - [CONCEPTION.md](doc/CONCEPTION.md) 
   - Tests détaillés 
@@ -17,3 +17,8 @@
   
 - [EXECUTION.md](doc/EXECUTION.md) 
   - Rapport d'exécution des tests manuels et automatisés avec les informations importantes du contexte d'exécution - - Anomalies rencontrées avec toutes les informations importantes du contexte d'exécution
+
+Dans le dossier cypress vous trouverez:
+
+- Le dossier e2e contenant les tests automatisés, repartis sur deux dossiers suivant l'environnement utilisé
+  
