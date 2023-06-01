@@ -1,55 +1,39 @@
 import '../page-objects/PageConnexion.js';
+import {loginValideKo, loginInvalide, loginAdminKO} from '../step-defs/stepsConnexion.js';
+
 
 //JIRA-001
   describe('connexion utilisateur', () => {
     beforeEach(() => {
   
-    
       cy.visit(Cypress.env.URLko)
     })
   
-    it.only('connexion valide', () => {
+      it('connexion valide', () => {
       
-        cy.xpath('//input[@formcontrolname="username"]').type('usernameUserOkKo');
-        cy.xpath('//input[@formcontrolname="password"]').type('passwordUserOkKo');
-        cy.xpath('//button[@class="btn btn-primary"]').click();
-        
 
-        //verification login
-        cy.contains('Bienvenue')
-  
-    
-    })
-  
-   
+          loginValideKo();
+
+
+})  
+
 
     //JIRA-002
-    
+   
       it('connexion invalide', () => {
         
-          cy.xpath('//input[@formcontrolname="username"]').type('usernameUserNoKo');
-          cy.xpath('//input[@formcontrolname="password"]').type('passwordUserNoKo');
-          cy.xpath('//button[@class="btn btn-primary"]').click();
-  
-          //verification login
-          cy.url().should('include', 'https://opencruise-ko.sogeti-center.cloud');
+          loginInvalide();
     
       
       })
     
-      //JIRA-003
+     //JIRA-003
       it('connexion adminKO', () => {
-      
-
-        cy.get('input[formcontrolname="username"]').type(Cypress.env('loginAdminKo'));
-        cy.get('input[formcontrolname="password"]').type(Cypress.env('passwordAdminKo'));
-        cy.get('button[class="btn btn-primary"]').click();
-
-        //verification login
-        cy.contains('Bienvenue')
-  
+        
+        loginAdminKO();
     
     })
      
-    })
-      
+    })    
+
+    

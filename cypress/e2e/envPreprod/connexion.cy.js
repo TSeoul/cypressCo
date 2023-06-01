@@ -1,5 +1,5 @@
 import '../page-objects/PageConnexion.js';
-import {loginValide, loginInvalide, loginAdmin} from '../step-defs/stepsConnexion.js';
+import {loginValide, loginInvalide, loginAdmin, loginAdminOk} from '../step-defs/stepsConnexion.js';
 
 
 //JIRA-001
@@ -30,7 +30,7 @@ import {loginValide, loginInvalide, loginAdmin} from '../step-defs/stepsConnexio
      //JIRA-003
       it('connexion adminOK', () => {
         
-        loginAdmin();
+        loginAdminOk();
     
     })
      
