@@ -27,4 +27,5 @@
 Cypress.Commands.add('pageShouldContainText', (text) => {
     cy.contains(text).should('be.visible');
 
-})
+});
+

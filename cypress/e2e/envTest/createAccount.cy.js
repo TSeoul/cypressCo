@@ -2,7 +2,7 @@
 describe('create personal account', () => {
     beforeEach(() => {
   
-      cy.visit('https://opencruise-ko.sogeti-center.cloud/register')
+      cy.visit(Cypress.env("URLkoRegister"))
     })
   
 
@@ -25,14 +25,10 @@ describe('create personal account', () => {
         cy.get('input[formcontrolname="nomConjoint"]').first().type('Tara');
         cy.get('input[formcontrolname="prenomConjoint"]').first().type('Boom');
         cy.get('input[formcontrolname="dateNaissanceConjoint"]').first().type('2001-01-03');
-
-
-
-
         cy.get('button[class="btn btn-primary"]').first().click();
 
         //verification login
-        cy.url().should('include', 'https://opencruise-ko.sogeti-center.cloud');
+        cy.contains('Bienvenue');
   
     
     })

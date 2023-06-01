@@ -5,7 +5,7 @@ require('cypress-xpath')
 describe('create personal account', () => {
     beforeEach(() => {
   
-      cy.visit('https://opencruise-ok.sogeti-center.cloud/register')
+      cy.visit(Cypress.env("URLokRegister"))
     })
   
 
@@ -39,7 +39,7 @@ describe('create personal account', () => {
         cy.get('button[class="btn btn-primary"]').first().click();
 
         //verification login
-        cy.url().should('include', 'https://opencruise-ok.sogeti-center.cloud');
+        cy.contains('Bienvenue');
   
     
     })

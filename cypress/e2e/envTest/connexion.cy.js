@@ -1,10 +1,11 @@
-import '../../support/commands.js';
+//import '../../support/commands.js';
 
 //JIRA-001
   describe('connexion utilisateur', () => {
     beforeEach(() => {
   
-      cy.visit('https://opencruise-ko.sogeti-center.cloud/login')
+    
+      cy.visit(Cypress.env("URLko"))
     })
   
     it('connexion valide', () => {
@@ -38,13 +39,14 @@ import '../../support/commands.js';
     
       //JIRA-006
       it('connexion adminKO', () => {
-        
-        cy.get('input[formcontrolname="username"]').type($loginAdminOk);
-        cy.get('input[formcontrolname="password"]').type($passwordAdminOk);
+      
+
+        cy.get('input[formcontrolname="username"]').type(Cypress.env('loginAdminKo'));
+        cy.get('input[formcontrolname="password"]').type(Cypress.env('passwordAdminKo'));
         cy.get('button[class="btn btn-primary"]').click();
 
         //verification login
-        
+        cy.contains('Bienvenue')
   
     
     })
