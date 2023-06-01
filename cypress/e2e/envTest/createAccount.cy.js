@@ -1,8 +1,10 @@
+import '../page-objects/PageConnexion.js';
+
 //JIRA-004
 describe('create personal account', () => {
     beforeEach(() => {
   
-      cy.visit(Cypress.env("URLkoRegister"))
+      cy.visit(Cypress.env.URLkoRegister)
     })
   
 

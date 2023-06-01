@@ -1,11 +1,12 @@
-require('cypress-xpath')
+import '../page-objects/PageConnexion.js';
 
 
 //JIRA-003
 describe('create personal account', () => {
     beforeEach(() => {
   
-      cy.visit(Cypress.env("URLokRegister"))
+      cy.visit(Cypress.env.URLokRegister)
+    
     })
   
 

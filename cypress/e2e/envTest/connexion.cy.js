@@ -5,7 +5,7 @@ import '../page-objects/PageConnexion.js';
     beforeEach(() => {
   
     
-      ccy.visit(Cypress.env.URLko)
+      cy.visit(Cypress.env.URLko)
     })
   
     it.only('connexion valide', () => {
