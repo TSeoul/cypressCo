@@ -40,8 +40,8 @@ import '../../support/commands.js';
      //JIRA-006
       it('connexion adminOK', () => {
         
-        cy.get('input[formcontrolname="username"]').type('admin@test.com');
-        cy.get('input[formcontrolname="password"]').type('Sogeti33');
+        cy.get('input[formcontrolname="username"]').type($loginAdminOk);
+        cy.get('input[formcontrolname="password"]').type($passwordAdminOk);
         cy.get('button[class="btn btn-primary"]').click();
 
         //verification login
