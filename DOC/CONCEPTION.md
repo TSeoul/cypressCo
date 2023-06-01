@@ -1,3 +1,7 @@
+Pendant ce projet je me suis orientée vers les tests de la feature connexion car c'est la première étape importante concernant l'expérience utilisateur et dont le bon fonctionnement permet de tester d'autres features ensuite.
+La fonction de connexion étant l'un des éléments essentiels d'un site internet présente une des premières étapes dans le parcours utilisateur. Le but des tests effectués est de s'assurer que les utilisateurs peuvent se connecter et créer un compte avec succès mais aussi de s'assurer que la gestion des erreurs a été mise en place pendant le développement.
+Voici la liste des tests effectués:
+
 ## CONNEXION / CREATION COMPTE 
 
 
