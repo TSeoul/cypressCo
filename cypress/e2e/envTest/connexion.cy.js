@@ -36,6 +36,18 @@ import '../../support/commands.js';
       
       })
     
+      //JIRA-006
+      it('connexion adminKO', () => {
+        
+        cy.get('input[formcontrolname="username"]').type('admin2@test.com');
+        cy.get('input[formcontrolname="password"]').type('Sogeti33');
+        cy.get('button[class="btn btn-primary"]').click();
+
+        //verification login
+        
+  
+    
+    })
      
     })
       
