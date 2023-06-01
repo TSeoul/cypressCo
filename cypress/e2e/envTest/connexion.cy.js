@@ -1,22 +1,22 @@
-//import '../../support/commands.js';
+import '../page-objects/PageConnexion.js';
 
 //JIRA-001
   describe('connexion utilisateur', () => {
     beforeEach(() => {
   
     
-      cy.visit(Cypress.env("URLko"))
+      ccy.visit(Cypress.env.URLko)
     })
   
-    it('connexion valide', () => {
+    it.only('connexion valide', () => {
       
-        cy.xpath('//input[@formcontrolname="username"]').type('tom@yahoo.fr');
-        cy.xpath('//input[@formcontrolname="password"]').type('Tompetit2');
+        cy.xpath('//input[@formcontrolname="username"]').type('usernameUserOkKo');
+        cy.xpath('//input[@formcontrolname="password"]').type('passwordUserOkKo');
         cy.xpath('//button[@class="btn btn-primary"]').click();
         
 
         //verification login
-        cy.xpath('//video[@id="myVideo"]').click();
+        cy.contains('Bienvenue')
   
     
     })
@@ -27,8 +27,8 @@
     
       it('connexion invalide', () => {
         
-          cy.xpath('//input[@formcontrolname="username"]').type('Tom');
-          cy.xpath('//input[@formcontrolname="password"]').type('Tam');
+          cy.xpath('//input[@formcontrolname="username"]').type('usernameUserNoKo');
+          cy.xpath('//input[@formcontrolname="password"]').type('passwordUserNoKo');
           cy.xpath('//button[@class="btn btn-primary"]').click();
   
           //verification login

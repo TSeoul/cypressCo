@@ -1,37 +1,36 @@
-import '../../support/commands.js'
+import '../page-objects/PageConnexion.js';
 
 
 //JIRA-001
   describe('connexion utilisateur', () => {
     beforeEach(() => {
   
-      
-      cy.visit(Cypress.env("URLok"))
+      cy.visit(Cypress.env.URLok)
     })
   
     it('connexion valide', () => {
       
-        cy.xpath('//input[@formcontrolname="username"]').type('tam@yahoo.fr');
-        cy.xpath('//input[@formcontrolname="password"]').type('Formation2023');
-        cy.xpath('//button[@class="btn btn-primary"]').click();
+        cy.xpath(Cypress.env.login).type("usernameUserOk");
+        cy.xpath(Cypress.env.password).type("passwordUserOk");
+        cy.xpath(Cypress.env.btnConnexion).click();
         
 
         //verification login
-        cy.xpath('//video[@id="myVideo"]').click();
+        cy.contains('Bienvenue')
   
     
     })
   
    
-  
+
 
     //JIRA-002
    
       it('connexion invalide', () => {
         
-          cy.xpath('//input[@formcontrolname="username"]').type('Tom');
-          cy.xpath('//input[@formcontrolname="password"]').type('Tam');
-          cy.xpath('//button[@class="btn btn-primary"]').click();
+          cy.xpath(Cypress.env.login).type("usernameUserNoOk");
+          cy.xpath(Cypress.env.password).type("passwordUserNoOk");
+          cy.xpath(Cypress.env.btnConnexion).click();
   
           //verification login
           cy.url().should('include', 'https://opencruise-ok.sogeti-center.cloud');
@@ -43,9 +42,9 @@ import '../../support/commands.js'
       it('connexion adminOK', () => {
         
 
-        cy.get('input[formcontrolname="username"]').type(Cypress.env('loginAdminOk'));
-        cy.get('input[formcontrolname="password"]').type(Cypress.env('passwordAdminOk'));
-        cy.get('button[class="btn btn-primary"]').click();
+        cy.xpath(Cypress.env.login).type("loginAdminOk");
+        cy.xpath(Cypress.env.password).type("passwordAdminOk");
+        cy.xpath(Cypress.env.btnConnexion).click();
 
         //verification login
         cy.contains('Bienvenue')
