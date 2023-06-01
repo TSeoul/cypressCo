@@ -38,7 +38,7 @@ import '../page-objects/PageConnexion.js';
       
       })
     
-     //JIRA-006
+     //JIRA-003
       it('connexion adminOK', () => {
         
 
