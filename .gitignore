@@ -6,5 +6,7 @@ tout ignorer
 !README.md
 !/DOC
 !/cypress/e2e
+!/cypress/support
+!/cypress/videos
 !logo.png
 

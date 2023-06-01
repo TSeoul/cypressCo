@@ -12,7 +12,6 @@ describe('create personal account', () => {
         cy.get('input[formcontrolname="prenom"]').first().type('Brun');
         cy.get('input[formcontrolname="nom"]').first().type('Tim');
         cy.get('input[formcontrolname="dateNaissance"]').first().type('2002-01-01');
-        //cy.contains('input[formcontrolname="adresse"]').should('be.visible').first().type('2');
         cy.get('input[formcontrolname="adresse"]').first().type('2');
         cy.get('select[formcontrolname="currentPays"]').first().select('France');
         cy.get('select[formcontrolname="ville"]').first().select('Nice');
