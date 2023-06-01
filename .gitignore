@@ -9,7 +9,7 @@ tout ignorer
 !/cypress/support
 !/cypress/videos
 !logo.png
-!/cypress/e2e/page-objects/PageConnexion.js
-!/cypress/e2e/page-objects/PageSubscription.js
-!/cypress/e2e/step-defs/stepsConnexion.js
-!/cypress/e2e/step-defs/stepsSubscription.js
+!/cypress/e2e/page-objects/PageConnexion
+!/cypress/e2e/page-objects/PageSubscription
+!/cypress/e2e/step-defs/stepsConnexion
+!/cypress/e2e/step-defs/stepsSubscription
