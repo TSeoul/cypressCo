@@ -18,6 +18,13 @@ Cet environnement comporte plusieurs bugs connus
 Environnement Préproduction:
 - Test JIRA-001 (connexion avec les données valides) s'exécute avec succès et sans anomalies détectées
 - Test JIRA-002 (connexion avec les données invalides) s'exécute avec succès et sans anomalies détectées
+- - Test JIRA-003 (création de compte particulier avec les données valides) s'exécute avec succès et sans anomalies détectées
+
+Environnement Test:
+- Test JIRA-001 (connexion avec les données valides) s'exécute avec succès et sans anomalies détectées
+- Test JIRA-002 (connexion avec les données invalides) s'exécute avec succès et sans anomalies détectées
+- Test JIRA-003 (création de compte particulier avec les données valides) s'exécute avec succès et sans anomalies détectées
+
 
 ## Environnement Test:
 Test JIRA-001 (connexion avec les données valides) ...
@@ -29,14 +36,19 @@ Anomalies détectées:
 ## Anomalies identifiées:
 
 Les anomalies suivantes ont été détectées sur l'environnement Test:
-1. Problème 1
-2. Problème 2
-3. Problème 3
+1. Lors de la validation de la création de compte particulier/professionnel un message d'erreur s'affiche "Erreur technique"
+   
+Les anomalies suivantes ont été détectées sur les environnements Préproduction et Test:
+1. Le champ "Date de naissance" permet de sélectionner les dates ultérieures à la date du jour ainsi que les dates trop anciennes
+2. Les champs "Nom" et "Prénom" permettent la saisie des chiffres et de caractères spéciaux (pas de message d'erreur)
+3. Le champ "Email" permet la saisie des noms de domaines inexistants et au format invalide (pas de message d'erreur)
 
 ## Conclusion
 
 Ne comportant pas d'anomalies identifiées les tests réalisés sur l'environnement Préproduction permettent de valider quotidiennement le bon fonctionnement de la connexion utilisateur
 
+L'environnement Test comporte à ce jour de nombreux bugs cités dans le paragraphe "Anomalies identifiées" ci-dessus
+
 ## Etat actuel:
 
-Les bugs ... ont été signalés à l'équipe de développement et sont en cours de débogage 
+Tous les bugs ont été signalés à l'équipe de développement et sont en cours de débogage 
