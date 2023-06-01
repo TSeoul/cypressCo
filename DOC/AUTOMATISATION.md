@@ -22,5 +22,9 @@ Il vérifie que l'utilisateur n'est pas connecté à son compte après avoir ent
 # Création de compte 
 
 # JIRA-003
+Ce test vérifie le bon fonctionnemet de la connexion admin en utilisant les donnés valides.
+Il vérifie que l'utilisateur admin est bien connecté à son compte après avoir entré son login et son mot de passe et se trouve sur la page https://opencruise-ok.sogeti-center.cloud
+
+# JIRA-004
 Ce test vérifie le bon fonctionnemet de la création de compte particulier en utilisant les données valides.
 Il vérifie que le compte a bien été créé après avoir rempli tous les champs dans le formulaire sur la page https://opencruise-ok.sogeti-center.cloud/register
