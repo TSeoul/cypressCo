@@ -1,7 +1,7 @@
 ![alt text](logo.png)
 
 ## PROJET OPENCRUISE AVEC CYPRESS 
-<p style="color:dark blue;"><b>Projet tutoré : Les tests WEB avec Cypress</b></p>
+<p style="color:violet;"><b>Projet tutoré : Les tests WEB avec Cypress</b></p>
 
 
 **Ce projet a été réalisé sur l'application Open Cruise qui est une application permettant aux particuliers de réserver des croisières sélectionnées. Le projet contient les tests web automatisés et testés sur deux environnements suivants:**
