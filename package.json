@@ -4,12 +4,11 @@
   "description": "**Ce projet est un exemple de tests web automatisés et testés sur deux environnements suivants: **",
   "main": "index.js",
   "scripts": {
-    "tests": "cypress run",
-    "connexionProd": "cypress run --spec cypress/e2e/envPreprod/connexion.cy.js",
-    "connexionTest": "cypress run --spec cypress/e2e/envTest/connexion.cy.js",
-    "compteProd": "cypress run --spec cypress/e2e/envPreprod/createAccount.cy.js",
-    "compteTest": "cypress run --spec cypress/e2e/envTest/createAccount.cy.js"
-    
+    "tests": "npx cypress run",
+    "connexionProd": "npx cypress run --spec cypress/e2e/envPreprod/connexion.cy.js",
+    "connexionTest": "npx cypress run --spec cypress/e2e/envTest/connexion.cy.js",
+    "compteProd": "npx cypress run --spec cypress/e2e/envPreprod/createAccount.cy.js",
+    "compteTest": "npx cypress run --spec cypress/e2e/envTest/createAccount.cy.js"
   },
   "author": "Tamara",
   "license": "ISC",
