@@ -15,9 +15,8 @@ Cet environnement comporte plusieurs bugs connus
 ## Résultats des tests automatisés:
 
 Tous les tests sont 100% PASS
-
-![alt text](testCompte.jpeg)
 ![alt text](testConnexion.jpeg)
+![alt text](testCompte.jpeg)
 ![alt text](status.jpeg)
 
 
