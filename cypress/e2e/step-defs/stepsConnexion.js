@@ -1,4 +1,5 @@
-import '../page-objects/PageConnexion.js';
+import   '../page-objects/PageConnexion.js';
+
 
 // KEYWORDS 
 
@@ -7,8 +8,8 @@ import '../page-objects/PageConnexion.js';
 export function loginValide() {
     cy.url().should('include', '/login')
     cy.contains('identifiant');
-    cy.xpath(Cypress.env.login).type("usernameUserOk");
-    cy.xpath(Cypress.env.password).type("passwordUserOk");
+    cy.xpath(Cypress.env.login).type(Cypress.env.usernameUserOk);
+    cy.xpath(Cypress.env.password).type(Cypress.env.passwordUserOk);
     cy.xpath(Cypress.env.btnConnexion).click();
     cy.contains('Bienvenue')
 
@@ -17,8 +18,8 @@ export function loginValide() {
 export function loginInvalide() {
     cy.url().should('include', '/login')
     cy.contains('identifiant');
-    cy.xpath(Cypress.env.login).type("usernameUserNoOk");
-    cy.xpath(Cypress.env.password).type("passwordUserNoOk");
+    cy.xpath(Cypress.env.login).type(Cypress.env.usernameUserNoOk);
+    cy.xpath(Cypress.env.password).type(Cypress.env.passwordUserNoOk);
     cy.xpath(Cypress.env.btnConnexion).click();
     //verification login
     cy.contains('Identifiant')
@@ -27,8 +28,8 @@ export function loginInvalide() {
 export function loginAdminOk() {
     cy.url().should('include', '/login')
     cy.contains('identifiant');
-    cy.xpath(Cypress.env.login).type("loginAdminOk");
-    cy.xpath(Cypress.env.password).type("passwordAdminOk");
+    cy.xpath(Cypress.env.login).type(Cypress.env.loginAdminOk);
+    cy.xpath(Cypress.env.password).type(Cypress.env.passwordAdminOk);
     cy.xpath(Cypress.env.btnConnexion).click();
     //verification login
     cy.contains('Bienvenue')
@@ -40,8 +41,8 @@ export function loginAdminOk() {
 export function loginValideKo() {
     cy.url().should('include', '/login')
     cy.contains('identifiant');
-    cy.xpath(Cypress.env.login).type("usernameUserOkKo");
-    cy.xpath(Cypress.env.password).type("passwordUserOkKo");
+    cy.xpath(Cypress.env.login).type(Cypress.env.usernameUserOkKo);
+    cy.xpath(Cypress.env.password).type(Cypress.env.passwordUserOkKo);
     cy.xpath(Cypress.env.btnConnexion).click();
     cy.contains('Bienvenue')
 
@@ -50,8 +51,8 @@ export function loginValideKo() {
 export function loginAdminKO() {
     cy.url().should('include', '/login')
     cy.contains('identifiant');
-    cy.xpath(Cypress.env.login).type("loginAdminKo");
-    cy.xpath(Cypress.env.password).type("passwordAdminKo");
+    cy.xpath(Cypress.env.login).type(Cypress.env.loginAdminKo);
+    cy.xpath(Cypress.env.password).type(Cypress.env.passwordAdminKo);
     cy.xpath(Cypress.env.btnConnexion).click();
     //verification login
     cy.contains('Bienvenue')
