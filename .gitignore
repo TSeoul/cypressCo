@@ -5,8 +5,5 @@ tout ignorer
 !.gitignore
 !README.md
 !/DOC
-!/cypress/videos
+!/cypress
 !logo.png
-!/PageConnexion.js
-!/PageSubscription.js
-!/cypress/e2e/step-defs
