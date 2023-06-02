@@ -1,34 +1,5 @@
 
-
 <body>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    color: #333333;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 20px;
-  }
-
-  h1 {
-    color: #1e90ff;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  p {
-    margin-bottom: 15px;
-  }
-
-  .test-list {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
-
-  .test-list li {
-    margin-bottom: 5px;
-  }
-</style>
   <h1>Conception</h1>
   <p>
     Pendant ce projet, je me suis orientée vers les tests de la feature connexion car c'est la première étape importante concernant l'expérience utilisateur et dont le bon fonctionnement permet de tester d'autres features ensuite.
