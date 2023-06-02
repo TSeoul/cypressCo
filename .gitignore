@@ -7,3 +7,5 @@ tout ignorer
 !/DOC
 !/cypress
 !logo.png
+!package.json
+
