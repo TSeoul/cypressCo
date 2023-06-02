@@ -18,9 +18,10 @@ export function createAccountValide() {
         cy.xpath(Cypress.env.inputVille).first().select(Cypress.env.Ville);
         cy.xpath(Cypress.env.inputCP).first().type(Cypress.env.CP);
         cy.xpath(Cypress.env.inputPassport).first().type(Cypress.env.Passport);
-        cy.xpath(Cypress.env.inputEmail).first().type(Cypress.env.mail);
+        cy.xpath(Cypress.env.inputCin).first().type('4783747204');
+        cy.xpath(Cypress.env.inputEmail).first().type(Cypress.env.Email);
         cy.xpath(Cypress.env.inputTel).first().type(Cypress.env.Tel);
-        cy.xpath(Cypress.env.inputCin).first().type(Cypress.env.Cin);
+        
         cy.xpath(Cypress.env.inputPassword).first().type(Cypress.env.Password);
         cy.xpath(Cypress.env.inputConfirmPassword).first().type(Cypress.env.Password);
         cy.xpath(Cypress.env.inputPrenomConjoint).first().type(Cypress.env.PrenomConjoint);
