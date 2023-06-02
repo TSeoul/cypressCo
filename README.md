@@ -24,3 +24,4 @@ Dans le dossier [cypress](cypress) vous trouverez:
 
 >- Le dossier **[e2e](cypress/e2e)** contenant les tests automatisés, repartis sur deux dossiers suivant l'environnement utilisé **([envPreProd](cypress/e2e/envPreprod/)** et **[envTest](cypress/e2e/envTest/) )**
   
+<span style="color: red;">Bla bla</span>
