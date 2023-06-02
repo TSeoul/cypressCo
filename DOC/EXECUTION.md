@@ -28,9 +28,9 @@ Cet environnement comporte plusieurs bugs connus
 1. Lors de la validation de la création de compte particulier/professionnel un message d'erreur s'affiche "Erreur technique"
    
 **Les anomalies suivantes ont été détectées sur les environnements Préproduction et Test:**
-1. Le champ "Date de naissance" permet de sélectionner les dates ultérieures à la date du jour ainsi que les dates trop anciennes
-2. Les champs "Nom" et "Prénom" permettent la saisie des chiffres et de caractères spéciaux (pas de message d'erreur)
-3. Le champ "Email" permet la saisie des noms de domaines inexistants et au format invalide (pas de message d'erreur)
+1. #ANOMALIE-001 Le champ "Date de naissance" permet de sélectionner les dates ultérieures à la date du jour ainsi que les dates trop anciennes
+2. #ANOMALIE-001 Les champs "Nom" et "Prénom" permettent la saisie des chiffres et de caractères spéciaux (pas de message d'erreur)
+3. #ANOMALIE-001 Le champ "Email" permet la saisie des noms de domaines inexistants et au format invalide (pas de message d'erreur)
 
 ## Conclusion
 
@@ -38,37 +38,4 @@ Ne comportant pas d'anomalies identifiées les tests réalisés sur l'environnem
 
 L'environnement Test comporte à ce jour de nombreux bugs cités dans le paragraphe "Anomalies identifiées" ci-dessus
 
-## Etat actuel:
 
-Tous les bugs ont été signalés à l'équipe de développement et sont en cours de débogage 
-
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    color: #333333;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 20px;
-  }
-
-  h1 {
-    color: #1e90ff;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  p {
-    margin-bottom: 15px;
-  }
-
-  .test-list {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
-
-  .test-list li {
-    margin-bottom: 5px;
-  }
-</style>
-
-<body>
