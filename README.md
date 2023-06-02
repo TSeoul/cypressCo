@@ -2,9 +2,11 @@
 
 ## PROJET OPENCRUISE AVEC CYPRESS 
 # Projet tutoré : Les tests WEB avec Cypress
-**Ce projet contient les tests web automatisés et testés sur deux environnements suivants:**
-1. https://opencruise-ok.sogeti-center.cloud (version V1.1.0 de l'application)
-2. https://opencruise-ko.sogeti-center.cloud (nouvelle version V1.2.0 de l'application à qualifier)
+
+
+**Ce projet a été réalisé sur l'application Open Cruise qui est une application permettant aux particuliers de réserver des croisières sélectionnées. Le projet contient les tests web automatisés et testés sur deux environnements suivants:**
+1. *https://opencruise-ok.sogeti-center.cloud* (version V1.1.0 de l'application)
+2. *https://opencruise-ko.sogeti-center.cloud* (nouvelle version V1.2.0 de l'application à qualifier)
 
 ## Contenu
 Dans le dossier DOC vous trouverez:
@@ -20,5 +22,5 @@ Dans le dossier DOC vous trouverez:
 
 Dans le dossier [cypress](cypress) vous trouverez:
 
-- Le dossier [e2e](cypress/e2e) contenant les tests automatisés, repartis sur deux dossiers suivant l'environnement utilisé ([envPreProd](cypress/e2e/envPreprod/) et [envTest](cypress/e2e/envTest/) )
+- Le dossier **[e2e](cypress/e2e)** contenant les tests automatisés, repartis sur deux dossiers suivant l'environnement utilisé **([envPreProd](cypress/e2e/envPreprod/)** et **[envTest](cypress/e2e/envTest/) )**
   
