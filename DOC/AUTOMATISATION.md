@@ -1,33 +1,3 @@
-<body><style>
-  body {
-    font-family: Arial, sans-serif;
-    color: #333333;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 20px;
-  }
-
-  h1 {
-    color: #1e90ff;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-
-  p {
-    margin-bottom: 15px;
-  }
-
-  .test-list {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
-
-  .test-list li {
-    margin-bottom: 5px;
-  }
-</style>
-
-
 ## Tests automatisés avec Cypress
 
 **Environnements testés:**
@@ -49,5 +19,3 @@
 - "connexionTest": "cypress run --spec cypress/e2e/envTest/connexion.cy.js"
 
   
-
-</body>
