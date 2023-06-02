@@ -18,7 +18,8 @@ Dans le dossier DOC vous trouverez:
   - Decription courte des tests automatisés et de la technologie utilisée 
   
 - [EXECUTION.md](DOC/EXECUTION.md) 
-  - Rapport d'exécution des tests manuels et automatisés avec les informations importantes du contexte d'exécution - - Anomalies rencontrées avec toutes les informations importantes du contexte d'exécution
+  - Rapport d'exécution des tests manuels et automatisés avec les informations importantes du contexte d'exécution 
+  - Anomalies rencontrées avec toutes les informations importantes du contexte d'exécution
 
 Dans le dossier [cypress](cypress) vous trouverez:
 

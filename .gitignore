@@ -8,4 +8,5 @@ tout ignorer
 !/cypress
 !logo.png
 !package.json
-
+!/page-objects/PageConnexion.js
+!/page-objects/PageSubscription.js
