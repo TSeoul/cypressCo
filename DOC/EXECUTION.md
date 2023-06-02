@@ -13,6 +13,7 @@ Cet environnement est considéré comme stable sans anomalies majeures
 Cet environnement comporte plusieurs bugs connus
 
 ## Résultats des tests automatisés:
+
 Tous les tests sont 100% PASS
 
 ![alt text](testCompte.jpeg)
