@@ -11,8 +11,9 @@ Ce projet a été réalisé avec Cypress afin d'automatiser les tests de bout en
 
   
 **L'exécution des tests en ligne de commande se fait grâce aux commandes enregistrées dans package.json ("scripts"):**
-- "tests": "npx cypress run"
-- "connexionEnv1": "cypress run --spec cypress/e2e/envPreprod/connexion.cy.js"
-- "connexionTest": "cypress run --spec cypress/e2e/envTest/connexion.cy.js"
-
+- "tests": "npm run tests"
+- "connexionProd": "npm run connexionProd"
+- "connexionTest": "npm run connexionTest"
+- "compteProd": "npm run compteProd"
+- "compteTest": "npm run compteTest"
   
