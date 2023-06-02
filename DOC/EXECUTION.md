@@ -1,12 +1,8 @@
 # Rapport d'exécution des tests sur OPEN CRUISE
 
-Les tests automatisés (voir le document AUTOMATISATION.md) sont exécuté tous les jours, deux fois par jour.
-
-
-
 ## Informations générales
 
-Dans le cadre du projet Open Cruise, j'ai réalisé des tests pour évaluer la fonctionnalité de connexion utilisateur. LEs tests ont été effectués sur deux environnements suivants:
+Dans le cadre du projet Open Cruise, plusieurs tests automatisés ont été mis en place pour évaluer la feature connexion. Les tests ont été effectués sur deux environnements suivants:
 
 ## Environnement Préproduction:
 - https://opencruise-ok.sogeti-center.cloud (version V1.1.0 de l'application)
@@ -17,12 +13,14 @@ Cet environnement est considéré comme stable sans anomalies majeures
 Cet environnement comporte plusieurs bugs connus
 
 ## Résultats des tests automatisés:
+Tous les tests sont 100% PASS
+
 ![alt text](testResults.jpeg)
 ![alt text](status.jpeg)
 
 
 
-## Anomalies identifiées:
+## Anomalies identifiées sur le site Open Cruise:
 
 **Les anomalies suivantes ont été détectées sur l'environnement Test:**
 1. Lors de la validation de la création de compte particulier/professionnel un message d'erreur s'affiche "Erreur technique"
