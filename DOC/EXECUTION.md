@@ -1,6 +1,8 @@
-# Rapport d'exécution des tests sur OPENCRUISE
+# Rapport d'exécution des tests sur OPEN CRUISE
 
 Les tests automatisés (voir le document AUTOMATISATION.md) sont exécuté tous les jours, deux fois par jour.
+
+
 
 ## Informations générales
 
@@ -15,17 +17,8 @@ Cet environnement est considéré comme stable sans anomalies majeures
 Cet environnement comporte plusieurs bugs connus
 
 ## Résultats des tests automatisés:
-Environnement Préproduction:
-- Test JIRA-001 (connexion utilisateur avec les données valides) s'exécute avec succès et sans anomalies détectées
-- Test JIRA-002 (connexion utilisateur avec les données invalides) s'exécute avec succès et sans anomalies détectées
-- Test JIRA-003 (connexion admin avec les données valides) s'exécute avec succès et sans anomalies détectées
-- Test JIRA-004 (création de compte particulier avec les données valides) s'exécute avec succès et sans anomalies détectées
-
-Environnement Test:
-- Test JIRA-001 (connexion utilisateur avec les données valides) s'exécute avec succès et sans anomalies détectées
-- Test JIRA-002 (connexion utilisateur avec les données invalides) s'exécute avec succès et sans anomalies détectées
-- Test JIRA-003 (connexion admin avec les données valides) s'exécute avec succès et sans anomalies détectées
-- Test JIRA-004 (création de compte particulier avec les données valides) s'exécute avec succès et sans anomalies détectées
+![alt text](testResults.jpeg)
+![alt text](status.jpeg)
 
 
 
@@ -48,3 +41,34 @@ L'environnement Test comporte à ce jour de nombreux bugs cités dans le paragra
 ## Etat actuel:
 
 Tous les bugs ont été signalés à l'équipe de développement et sont en cours de débogage 
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    color: #1e90ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  .test-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+
+  .test-list li {
+    margin-bottom: 5px;
+  }
+</style>
+
+<body>

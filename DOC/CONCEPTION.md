@@ -1,8 +1,45 @@
-Pendant ce projet je me suis orientée vers les tests de la feature connexion car c'est la première étape importante concernant l'expérience utilisateur et dont le bon fonctionnement permet de tester d'autres features ensuite.
-La fonction de connexion étant l'un des éléments essentiels d'un site internet présente une des premières étapes dans le parcours utilisateur. Le but des tests effectués est de s'assurer que les utilisateurs peuvent se connecter et créer un compte avec succès mais aussi de s'assurer que la gestion des erreurs a été mise en place pendant le développement.
-Voici la liste des tests effectués:
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+  }
 
-## CONNEXION / CREATION COMPTE 
+  h1 {
+    color: #1e90ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  .test-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+
+  .test-list li {
+    margin-bottom: 5px;
+  }
+</style>
+
+<body>
+  <h1>Conception</h1>
+  <p>
+    Pendant ce projet, je me suis orientée vers les tests de la feature connexion car c'est la première étape importante concernant l'expérience utilisateur et dont le bon fonctionnement permet de tester d'autres features ensuite.
+  </p>
+  <p>
+    La fonction de connexion étant l'un des éléments essentiels d'un site internet présente l'une des premières étapes dans le parcours utilisateur. Le but des tests effectués est de s'assurer que les utilisateurs peuvent se connecter et créer un compte avec succès, mais aussi de s'assurer que la gestion des erreurs a été mise en place pendant le développement.
+  </p>
+  <h2>Liste des tests effectués :</h2>
+ 
+</body>
+
+
 
 
 <table class="tg">
