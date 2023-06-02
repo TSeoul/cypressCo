@@ -4,13 +4,13 @@ import {loginValideKo, loginInvalide, loginAdminKO} from '../step-defs/stepsConn
 
 
 //JIRA-001
-  describe('connexion utilisateur', () => {
+  describe("L'objectif: tester la connexion utilisateur", () => {
     beforeEach(() => {
   
       cy.visit(Cypress.env.URLko)
     })
   
-      it('connexion valide', () => {
+      it('Connexion utilisateur valide', () => {
       
 
           loginValideKo();
@@ -21,7 +21,7 @@ import {loginValideKo, loginInvalide, loginAdminKO} from '../step-defs/stepsConn
 
     //JIRA-002
    
-      it('connexion invalide', () => {
+      it('Connexion mdp invalide', () => {
         
           loginInvalide();
     
@@ -29,7 +29,7 @@ import {loginValideKo, loginInvalide, loginAdminKO} from '../step-defs/stepsConn
       })
     
      //JIRA-003
-      it('connexion adminKO', () => {
+      it('Connexion compte admin valide', () => {
         
         loginAdminKO();
     

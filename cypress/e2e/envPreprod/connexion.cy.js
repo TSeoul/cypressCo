@@ -3,14 +3,15 @@ import '../page-objects/PageConnexionAdmin.js';
 import {loginValide, loginInvalide, loginAdminOk} from '../step-defs/stepsConnexion.js';
 
 
+
 //JIRA-001
-  describe('connexion utilisateur', () => {
+  describe("L'objectif: tester la connexion utilisateur", () => {
     beforeEach(() => {
   
       cy.visit(Cypress.env.URLok)
     })
   
-      it('connexion valide', () => {
+      it('Connexion utilisateur valide', () => {
       
 
           loginValide();
@@ -21,7 +22,7 @@ import {loginValide, loginInvalide, loginAdminOk} from '../step-defs/stepsConnex
 
     //JIRA-002
    
-      it('connexion invalide', () => {
+      it('Connexion utilisateur invalide', () => {
         
           loginInvalide();
     
@@ -29,7 +30,7 @@ import {loginValide, loginInvalide, loginAdminOk} from '../step-defs/stepsConnex
       })
     
      //JIRA-003
-      it('connexion adminOK', () => {
+      it('Connexion compte admin valide', () => {
         
         loginAdminOk();
     

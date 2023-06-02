@@ -1,15 +1,18 @@
 import '../page-objects/PageConnexion.js';
 import {createAccountValide} from '../step-defs/stepsSubscription.js';
 
+
+
+
 //JIRA-004
-describe('create personal account', () => {
+describe("L'objectif: tester la création de compte particulier", () => {
     beforeEach(() => {
   
       cy.visit(Cypress.env.URLkoRegister)
     })
   
 
-    it('valid input data', () => {
+    it('Création de compte avec les données valides', () => {
         
 
       createAccountValide();
