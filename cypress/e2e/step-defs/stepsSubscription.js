@@ -6,6 +6,8 @@ import '../page-objects/PageSubscription.js';
 // SUBSCRIPTION utilisateur 
    
 export function createAccountValide() {
+        cy.url().should('include', '/register')
+        cy.contains('Formulaire');
         cy.get('input[type="radio"][value="1"]').check();
         //cy.xpath(Cypress.env.radioBtn).check();
         cy.xpath(Cypress.env.inputNom).first().type('Nom');
