@@ -1,5 +1,10 @@
 tout ignorer
 /*
+/READ.md
+/DOC
+/logo.png
+/cypress/fixtures
+
 
 à ne pas ignorer
 !.gitignore
@@ -11,5 +16,4 @@ tout ignorer
 !/cypress/e2e/page_object/po_Subscription.js
 !/cypress/e2e/step_def/stepDef_Connexion.js
 !package.json
-!/page-objects/PageConnexion.js
 
