@@ -1,6 +1,6 @@
-import '../page-objects/PageConnexion.js';
-import '../page-objects/PageConnexionAdmin.js';
-import {loginValide, loginInvalide, loginAdminOk} from '../step-defs/stepsConnexion.js';
+import '../page_object/po_Connexion.js';
+import {loginValide, loginInvalide, loginAdminOk} from '../page_object/po_Connexion.js';
+
 
 
 
@@ -8,7 +8,7 @@ import {loginValide, loginInvalide, loginAdminOk} from '../step-defs/stepsConnex
   describe("L'objectif: tester la connexion utilisateur", () => {
     beforeEach(() => {
   
-      cy.visit(Cypress.env.URLok)
+      cy.visit(Cypress.env('URLok'))
     })
   
       it('Connexion utilisateur valide', () => {

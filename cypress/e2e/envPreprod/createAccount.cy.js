@@ -1,13 +1,13 @@
-import '../page-objects/PageConnexion.js';
-import {createAccountValide} from '../step-defs/stepsSubscription.js';
+
+import '../page_object/po_Connexion.js';
+import {createAccountValide} from '../page_object/po_Subscription.js';
 
 
 
-//JIRA-004
 describe("L'objectif: tester la création de compte particulier", () => {
     beforeEach(() => {
   
-      cy.visit(Cypress.env.URLokRegister)
+      cy.visit(Cypress.env('URLokRegister'))
     
     })
   

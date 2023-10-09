@@ -2,6 +2,10 @@
 
 Ce projet a été réalisé avec Cypress afin d'automatiser les tests de bout en bout. 
 
+ENVIRONEMENT:
+**Ce projet a été réalisé sur l'application Open Cruise qui est une application permettant aux particuliers de réserver des croisières sélectionnées. Le projet contient les tests E2E automatisés et testés sur deux environnements suivants:**
+1. *https://opencruise-ok.sogeti-center.cloud* (version V1.1.0 de l'application)
+2. *https://opencruise-ko.sogeti-center.cloud* (nouvelle version V1.2.0 de l'application comportant de nombreux bugs)
 
 **L'architecture des tests automatisés**
 

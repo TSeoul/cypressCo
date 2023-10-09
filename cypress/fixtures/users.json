@@ -40,19 +40,5 @@
     "prenomConjoint": "Boom",
     "dateNaissanceConjoint": "2001-01-03"
   
-},
-{"type": "adminOK",
-    "username": "admin@test.com",
-    "password": "Sogeti33"
-    
-},
-{"type": "adminKO",
-    "username": "admin2@test.com",
-    "password": "Sogeti33"
-    
-},
-{
-  "type": "userOk",
-  "username": "Tam@yahoo.fr",
-    "password": "Formation2023"
-}]
+}
+]
