@@ -1,8 +1,7 @@
 tout ignorer
 /*
+/.env
 /README.md
-/DOC
-/logo.png
 /cypress/fixtures
 
 
