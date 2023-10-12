@@ -9,7 +9,6 @@
     "connexionTest": "npx cypress run --spec cypress/e2e/envTest/connexion.cy.js",
     "compteProd": "npx cypress run --spec cypress/e2e/envPreprod/createAccount.cy.js",
     "compteTest": "npx cypress run --spec cypress/e2e/envTest/createAccount.cy.js"
-
   },
   "author": "Tamara",
   "license": "ISC",
@@ -18,14 +17,10 @@
     "@faker-js/faker": "^8.1.0",
     "chart.js": "^4.3.0",
     "cypress": "^12.13.0",
-    "cypress-mochawesome-reporter": "^3.5.0",
-    "cypress-multi-reporters": "^1.6.3",
+    "cypress-mochawesome-reporter": "^3.6.1",
     "cypress-xpath": "^2.0.1",
     "dotenv": "^16.3.1",
     "jest": "^29.5.0",
-    "mochawesome": "^7.1.3",
-    "mochawesome-merge": "^4.3.0",
-    "mochawesome-report-generator": "^6.2.0",
     "should": "^13.2.3"
   }
 }
