@@ -1,23 +1,7 @@
 const { defineConfig } = require('cypress');
 
   // Use environment variables in Cypress configuration
-require('dotenv').config();
-
-
-//const dotenv = require('dotenv');
-//dotenv.config({ path: '../Users/tam/Documents/.env' });
-
-  //'env': 
-  //{
-    //'LOGIN_ADMIN_OK': 'admin@test.com',
-    //'PASSWORD_ADMIN_OK': 'admin123',
-    
-  //},
-  
-//});
-
-
-  
+require('dotenv').config();  
 
 
 module.exports = defineConfig({
