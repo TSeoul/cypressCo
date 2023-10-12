@@ -2,17 +2,12 @@ tout ignorer
 /*
 /.env
 /README.md
-/cypress/fixtures
+
 
 
 à ne pas ignorer
 !.gitignore
-!/cypress/e2e/envPreprod/connexion.cy.js
-!/cypress/e2e/envPreprod/createAccount.cy.js
-!/cypress/e2e/envTest/connexion.cy.js
-!/cypress/e2e/envTest/createAccount.cy.js
-!/cypress/e2e/page_object/po_Connexion.js
-!/cypress/e2e/page_object/po_Subscription.js
-!/cypress/e2e/step_def/stepDef_Connexion.js
+!/cypress
+!/package-lock.json
 !package.json
 
