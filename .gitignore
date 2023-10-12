@@ -9,5 +9,6 @@ tout ignorer
 !.gitignore
 !/cypress
 !/package-lock.json
-!package.json
+!/package.json
+!/cypress.config.js
 
